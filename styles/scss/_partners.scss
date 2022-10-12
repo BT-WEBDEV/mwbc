@@ -1,0 +1,52 @@
+.partners-widget {
+    .nav {
+        padding-bottom: 15px;
+        border-bottom: 1px solid $red;
+        .nav-item {
+            img {
+                width: 40px;
+            }
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            .nav-link {
+                color: $black;
+                &.active {
+                    font-weight: 600;
+                    text-decoration: underline;
+                    background: none;
+                }
+            }
+        }
+    }
+    .tab-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .partners-widget {
+        .nav {
+            .nav-item {
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    
+}

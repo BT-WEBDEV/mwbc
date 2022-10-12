@@ -1,0 +1,44 @@
+.widget_advisory_board_mwbc_widget {
+    h1 {
+        margin-bottom: 30px;
+    }
+    .profile-wrapper {
+        padding: 15px;
+        .profile {
+            border: 1px solid $blue;
+            text-align: left;
+            padding: 15px;
+            height: 100%;
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+            .name {
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .chair {
+                font-size: 16px;
+                color: $red;
+            }
+        }
+    }
+}
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    
+}

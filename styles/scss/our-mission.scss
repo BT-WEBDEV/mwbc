@@ -1,0 +1,38 @@
+.our-mission {
+    background-color: $l-blue;
+    color: $white;
+    font-size: 22px;
+    p, img {
+        margin-bottom: 30px;
+    }
+    img {
+        width: auto;
+        height: 65px;
+    }
+}
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    .our-mission {
+        font-size: 18px;
+        p, img {
+            margin-bottom: 15px;
+        }
+        img {
+            height: 35px;
+        }
+    }
+}

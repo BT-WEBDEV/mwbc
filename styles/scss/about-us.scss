@@ -1,0 +1,31 @@
+.our-history {
+    h3 {
+        margin-bottom: 30px;
+    }
+    .year {
+        font-weight: 600;
+        color: $blue;
+        font-size: 16px;
+    }
+    hr {
+        width: 100%;
+        height: 5px;
+        background-color: $blue;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+.our-mission {
+    background-color: $l-blue;
+    color: $white;
+    font-size: 22px;
+    p, img {
+        margin-bottom: 30px;
+    }
+    img {
+        width: auto;
+        height: 65px;
+    }
+}

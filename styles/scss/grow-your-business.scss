@@ -1,0 +1,72 @@
+.grow-your-business-widget {
+    background-image: url('../../images/Maryland-Women.png'), url('../../images/Business-Center.png');
+    background-size: 30%, 30%;
+    background-repeat: no-repeat;
+    background-position: left 5% top, right 5% bottom;
+    h1 {
+        margin-bottom: 30px;
+    }
+    p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .business-list-wrapper {
+        margin-bottom: 15px;
+        .business-list {
+            display: flex;
+            border-bottom: 1px solid $l-blue;
+            align-items: center;
+            height: 100%;
+            a {
+                color: $red;
+                text-decoration: underline;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                text-align: left;
+            }
+            img {
+                width: 20px;
+                margin-left: 15px;
+            }
+        }
+        
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .grow-your-business-widget {
+        .business-list-wrapper {
+            .business-list {
+                a {
+                    font-size: 14px;
+                }
+            }            
+        }
+    }
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    .grow-your-business-widget {
+        .business-list-wrapper {
+            .business-list {
+                a {
+                    font-size: 14px;
+                }
+            }            
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.reading-list-widget {
+    img {
+        width: 40px;
+        margin-right: 20px;
+    }
+    h5 {
+        text-transform: capitalize;
+        color: $red;
+        font-weight: 500;
+    }
+    ul {
+        padding-left: 55px;
+        margin-top: 20px;
+        line-height: 2;
+        margin-bottom: 0;
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    
+}

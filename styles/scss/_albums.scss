@@ -1,0 +1,32 @@
+.albums-widget {
+    .albums-desc {
+        display: flex;
+        justify-content: space-between;
+        span {
+            font-size: 11px;
+        }
+        img {
+            height: 13px;
+            margin-left: 7px;
+        }
+    }    
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    
+}

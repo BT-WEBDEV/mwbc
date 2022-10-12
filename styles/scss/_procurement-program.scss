@@ -1,0 +1,78 @@
+.procurement-program-widget {    
+    .bordered-content {
+        margin-top: 50px;
+        border: 1px solid $blue;
+        h1 {
+            margin-top: -20px;
+            background-color: $white;
+            width: 80%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .blue-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 22px;
+        color: $white;
+        text-align: center;        
+    }
+    .nav {
+        padding-bottom: 15px;
+        border-bottom: 1px solid $red;
+        .nav-item {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            .nav-link {
+                color: $black;
+                &.active {
+                    font-weight: 600;
+                    text-decoration: underline;
+                    background: none;
+                }
+            }
+        }
+    }
+    .tab-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    .procurement-program-widget {
+        .bordered-content {
+            h1 {
+                width: 90%;
+            }
+        }
+    }
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .procurement-program-widget {
+        .bordered-content {
+            h1 {
+                width: 95%;
+            }
+        }
+    }
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    .procurement-program-widget {
+        .bordered-content {
+            h1 {
+                width: 95%;
+            }
+        }
+    }
+}

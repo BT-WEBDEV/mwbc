@@ -1,0 +1,46 @@
+.team-widget {
+    margin-bottom: 30px;  
+    .text-col {
+        padding: 20px 20px 20px 15px;
+        display: flex;
+        align-items: center;
+        h1 {
+            margin-bottom: 50px;
+        }
+        .title {
+            color: $red;
+            font-size: 20px;
+        }
+        img {
+            width: 15px;
+            margin-right: 10px;
+        }
+        a {
+            font-size: 14px;
+        }
+    }
+    .image-col {
+        padding: 30px 30px 30px 15px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    
+}

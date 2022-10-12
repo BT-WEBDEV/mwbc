@@ -1,0 +1,48 @@
+.img-text-2-col {
+    .content {
+        width: 85%;
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+    .image {
+        background-color: rgba($color: #65B2E8, $alpha: 0.5);
+        padding-bottom: 20px;
+        // padding-right: 20px;
+        border-left: 20px solid white;
+        border-top: 20px solid white;
+        img {
+            margin-left: -20px;
+            margin-top: -20px;
+        }
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .img-text-2-col {
+        .content {
+            width: 100%;
+        }
+    }
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    .img-text-2-col {
+        .content {
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+}

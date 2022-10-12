@@ -1,0 +1,30 @@
+.wpforms-container {
+    .wpforms-field-container {
+        display: flex;
+        flex-wrap: wrap;
+        .wpforms-field-label {
+            font-weight: 300 !important;
+        }
+        input[type=checkbox] {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        select {
+            display: block !important;
+        }        
+    }
+    .wpforms-submit-container {
+        text-align: center;
+        .custom-btn-submit {
+            background-color: $blue !important;
+            color: $white !important;
+            padding: .84rem 2.14rem !important;
+            font-size: .81rem !important;
+            margin: .375rem !important;
+            border: 0 !important;
+            border-radius: .125rem !important;
+            cursor: pointer !important;
+            text-transform: uppercase !important;
+        }
+    }
+}

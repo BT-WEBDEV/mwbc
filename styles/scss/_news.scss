@@ -1,0 +1,55 @@
+.news-list {
+    border: 0.5px solid rgba($color: #000000, $alpha: 0.5);
+    margin-bottom: 25px;
+    .image {
+        height: 230px;
+    }
+    .content {
+        padding: 15px 15px 0px 15px;
+        h5 {
+            font-weight: 500;
+        }
+    }
+    .footer {
+        border-top: 0.5px solid rgba($color: #000000, $alpha: 0.5);
+        padding: 8px 15px;
+        a, p {
+            margin-top: 2px;
+            font-size: 13.5px;
+        }
+        img {
+            height: 13px;
+            margin-right: 7px;
+        }
+    }
+}
+
+.pagination {
+    .page-numbers {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        img {
+            width: 20px;
+        }
+    }
+}
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    
+}

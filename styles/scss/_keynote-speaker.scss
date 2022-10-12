@@ -1,0 +1,19 @@
+.keynote-speaker-widget {
+    .text-col {
+        padding: 20px 20px 20px 15px;
+        display: flex;
+        align-items: center;
+        h1 {
+            margin-bottom: 50px;
+        }
+        .title {
+            color: $blue;
+            font-size: 20px;
+        }
+    }
+    .image-col {
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+    }
+}

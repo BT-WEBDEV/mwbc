@@ -1,0 +1,1 @@
+<?php echo do_shortcode($instance['custom_text_description_mwbc']); ?>

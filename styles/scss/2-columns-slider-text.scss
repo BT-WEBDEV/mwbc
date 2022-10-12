@@ -1,0 +1,48 @@
+.slider-img-2-col {
+    .content {
+        width: 85%;
+        margin-left: auto;
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+    .main-swiper {
+        padding-bottom: 20px;
+        .swiper-pagination {
+            bottom: 0;
+            text-align: right;
+            .swiper-pagination-bullet-active {
+                background-color: $blue;
+            }
+        }
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .slider-img-2-col {
+        .content {
+            width: 100%;
+        }
+    }
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    .slider-img-2-col {
+        .content {
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+}
